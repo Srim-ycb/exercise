@@ -6,17 +6,4 @@
 list_result = [item for item in list01 if item > 10]
 print(list_result)
 
-# def find01():
-#     for item in list01:
-#         if item > 10:
-#             yield item
-
-generator01 = (item for item in list01 if item > 10)
-for item in generator01:
-    print(item)
-
-# 需求2：创建列表存储1-10之间数字的立方
-# 数据
-list_result = [number ** 3 for number in range(1, 11)]
-# 数据的推算
 generator02 = (number ** 3 for number in range(1, 11))

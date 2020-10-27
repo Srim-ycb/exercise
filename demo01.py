@@ -3,11 +3,6 @@
     复习：列表推导式
 """
 # 需求1：将list01中大于10的数字，存入另外一个空列表中
-list01 = [4, 54, 56, 67, 8]
-# list_result = []
-# for item in list01:
-#     if item > 10:
-#         list_result.append(item)
 list_result = [item for item in list01 if item > 10]
 print(list_result)
 
